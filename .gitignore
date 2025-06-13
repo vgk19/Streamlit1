@@ -1,0 +1,29 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Streamlit secrets
+.streamlit/
+
+# 데이터/모델 파일 (필요시)
+data/
+models/
+*.pkl
+*.csv
+*.db
+
+# IDE/OS
+.vscode/
+.DS_Store
+Thumbs.db
